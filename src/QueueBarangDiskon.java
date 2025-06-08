@@ -62,7 +62,7 @@ public class QueueBarangDiskon {
             System.out.println("Tidak ada barang dalam antrian");
             return;
         }
-        System.out.println("\n=== DAFTAR BARANG DISKON (Urutan Masuk) ==="); // Sesuaikan pesan
+        System.out.println("\n=== DAFTAR BARANG DISKON (Urutan Masuk) ===");
         Node current = front;
         while (current != null) {
             System.out.println(current.getData());
