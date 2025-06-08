@@ -20,6 +20,7 @@ public class Barang {
 
         // test3 //
 
+        // test4 //
 
     }
 
