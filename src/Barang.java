@@ -13,9 +13,6 @@ public class Barang {
         this.hargaDiskon = harga * (1 - hargaDiskon / 100);
         this.tanggalBerakhir = tanggalBerakhir;
         this.stok = stok;
-
-   tes
-
     }
 
 }
