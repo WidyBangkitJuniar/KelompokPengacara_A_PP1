@@ -15,8 +15,10 @@ public class Barang {
         this.stok = stok;
 
         // test //
+        
+        // test2 //
 
-        // test2
+        // test3 //
 
 
     }
