@@ -32,3 +32,40 @@ public class QueueBarangDiskon {
         }
         System.out.println("Barang " + barang.getNama() + " ditambahkan ke antrian.");
     }
+
+// Dequeue (tetap sama)
+    public Barang dequeue() {
+        if (isEmpty()) {
+            System.out.println("Barang kosong!");
+            return null;
+        }
+        Barang barang = front.getData();
+        front = front.getNext();
+        if (front == null) {
+            rear = null;
+        }
+        return barang;
+    }
+
+    // Peek (tetap sama)
+    public Barang peek() {
+        if (isEmpty()) {
+            System.out.println("Barang kosong!");
+            return null;
+        }
+        return front.getData();
+    }
+
+    // Display (tetap sama)
+    public void display() {
+        if (isEmpty()) {
+            System.out.println("Tidak ada barang dalam antrian");
+            return;
+        }
+        System.out.println("\n=== DAFTAR BARANG DISKON (Urutan Masuk) ==="); // Sesuaikan pesan
+        Node current = front;
+        while (current != null) {
+            System.out.println(current.getData());
+            current = current.getNext();
+        }
+    }
