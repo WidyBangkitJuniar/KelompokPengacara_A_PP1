@@ -14,7 +14,7 @@ public class Barang {
         this.tanggalBerakhir = tanggalBerakhir;
         this.stok = stok;
 
-        
+        // test //
 
     }
 
