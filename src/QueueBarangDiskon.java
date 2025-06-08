@@ -69,3 +69,28 @@ public class QueueBarangDiskon {
             current = current.getNext();
         }
     }
+
+    // Metode updateStok, searchBarang, dan removeBarang
+    // 5. Ubah Stok Barang (tetap sama)
+    public void updateStok(String kodeBarang, int newStok) {
+        if (isEmpty()) {
+            System.out.println("Antrian kosong, tidak ada barang untuk diubah stoknya.");
+            return;
+        }
+
+        Node current = front;
+        boolean found = false;
+        while (current != null) {
+            if (current.getData().getKode().equalsIgnoreCase(kodeBarang)) {
+                current.getData().setStok(newStok);
+                System.out.println("Stok barang " + current.getData().getNama() + " (Kode: " + kodeBarang + ") berhasil diubah menjadi " + newStok + ".");
+                found = true;
+                break;
+            }
+            current = current.getNext();
+        }
+
+        if (!found) {
+            System.out.println("Barang dengan kode " + kodeBarang + " tidak ditemukan dalam antrian.");
+        }
+    }
