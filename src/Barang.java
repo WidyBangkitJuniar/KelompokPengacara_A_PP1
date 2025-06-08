@@ -16,6 +16,7 @@ public class Barang {
 
     Sandy alfaizal
     Iqbal nurfikri
+    Widy bangkit juniar
     }
 
 }
