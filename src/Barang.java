@@ -14,10 +14,7 @@ public class Barang {
         this.tanggalBerakhir = tanggalBerakhir;
         this.stok = stok;
 
-        public void tampilkanKode () {
-            // Constructor tidak perlu diisi, karena sudah diinisialisasi di atas
-        }
-
+    Sandy alfaizal
     }
 
 }
