@@ -16,6 +16,9 @@ public class Barang {
 
         // test //
 
+        // test2
+
+
     }
 
 }
