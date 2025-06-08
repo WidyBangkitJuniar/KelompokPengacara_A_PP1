@@ -15,6 +15,7 @@ public class Barang {
         this.stok = stok;
 
     Sandy alfaizal
+    Iqbal nurfikri
     }
 
 }
