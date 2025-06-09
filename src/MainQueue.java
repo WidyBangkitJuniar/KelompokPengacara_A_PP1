@@ -8,7 +8,7 @@ public class MainQueue {
 
         do {
             System.out.println("------------------------------------------------------------");
-            System.out.println("          SISTEM INFORMASI PENJUALAN BARANG DISKON");
+            System.ou1t.println("          SISTEM INFORMASI PENJUALAN BARANG DISKON");
             System.out.println("                        TOKO SEMBAKO ");
             System.out.println("------------------------------------------------------------");
             System.out.println("1. Tambah Barang "); //(Enqueue)

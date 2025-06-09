@@ -18,12 +18,24 @@ public class Barang {
         }
 
        // Getter methods
-    public String getKode() { return kode; }
-    public String getNama() { return nama; }
-    public double getHarga() { return harga; }
-    public String getTanggalBerakhir() { return tanggalBerakhir; }
-    public int getStok() { return stok; }
-    public void setStok(int stok) { this.stok = stok; }
+    public String getKode() {
+        return kode;
+    }
+    public String getNama() {
+        return nama;
+    }
+    public double getHarga() {
+        return harga;
+    }
+    public String getTanggalBerakhir() {
+        return tanggalBerakhir;
+    }
+    public int getStok() {
+        return stok;
+    }
+    public void setStok(int stok) {
+        this.stok = stok;
+    }
 
        // Metode untuk mendapatkan LocalDate dari tanggalBerakhir
     public LocalDate getTanggalBerakhirAsLocalDate() {
@@ -32,7 +44,7 @@ public class Barang {
             return LocalDate.parse(tanggalBerakhir, formatter);
         } catch (DateTimeParseException e) {
             System.err.println("Error parsing date for item " + nama + ": " + e.getMessage());
-               return null; // Handle error appropriately
+            return null;
         }
     }
 
