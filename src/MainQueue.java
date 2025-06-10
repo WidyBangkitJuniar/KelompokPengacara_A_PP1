@@ -8,7 +8,7 @@ public class MainQueue {
 
         do {
             System.out.println("------------------------------------------------------------");
-            System.ou1t.println("          SISTEM INFORMASI PENJUALAN BARANG DISKON");
+            System.out.println("          SISTEM INFORMASI PENJUALAN BARANG DISKON");
             System.out.println("                        TOKO SEMBAKO ");
             System.out.println("------------------------------------------------------------");
             System.out.println("1. Tambah Barang "); //(Enqueue)
@@ -85,6 +85,7 @@ public class MainQueue {
                     System.out.println("Pilihan tidak valid");
             }
         } while (pilihan != 0);
+        
         sc.close();
     }
 }
